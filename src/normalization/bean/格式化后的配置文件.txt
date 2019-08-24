@@ -1,0 +1,9 @@
+address_object_begin                                 --
+    block1 // 格式不变配置里什么样就什么样               |
+    block2 // 格式不变配置里什么样就什么样                >   一个partition
+    block3 // 格式不变配置里什么样就什么样               |
+address_object_end                                   --
+address_group_object_begin
+    block1
+    block2
+address_group_object_end
